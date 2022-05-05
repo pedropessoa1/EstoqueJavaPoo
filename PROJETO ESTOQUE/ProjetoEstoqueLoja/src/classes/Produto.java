@@ -5,6 +5,11 @@ public class Produto {
 	private double preco;
 	private int quantidade;
     
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+
     public Produto(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
